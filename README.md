@@ -22,3 +22,9 @@
 
   Lesson #1 Creating A Component
   `ng generate component Home --standalone --inline-template`
+
+  Shorthand of Generating Component
+
+  `ng g c details --standalone --inline-template`
+  g = generate
+  c = component
