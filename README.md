@@ -28,3 +28,6 @@
   `ng g c details --standalone --inline-template`
   g = generate
   c = component
+
+  Property Binding Method
+  `
