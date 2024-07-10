@@ -32,3 +32,8 @@
   Property Binding Method
   `<img class="listing-photo" [src]="housingLocation?.photo" />`
   using [src]: allows the element to use property binding
+
+  Event Binding Method
+  `<form [formGroup]="applyForm" (submit)="submitApplication()">`
+
+  using (submit) : "{functionName()"} : allows the HTMLbutton to use event binding
