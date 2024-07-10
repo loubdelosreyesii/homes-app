@@ -37,3 +37,14 @@
   `<form [formGroup]="applyForm" (submit)="submitApplication()">`
 
   using (submit) : "{functionName()"} : allows the HTMLbutton to use event binding
+
+  Adding Stand Alone Server
+  `npm install -g json-server`
+
+Bash Script in creating a file
+`touch {filename}`
+`touch db.json`
+
+Running Local Server
+`json-server --watch [filename]`
+`json-server --watch db.json`
