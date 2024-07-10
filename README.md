@@ -30,4 +30,5 @@
   c = component
 
   Property Binding Method
-  `
+  `<img class="listing-photo" [src]="housingLocation?.photo" />`
+  using [src]: allows the element to use property binding
